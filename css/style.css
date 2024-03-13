@@ -18,12 +18,31 @@ img{
 .ms_header{
     /* debug */
     min-height: 60px;
-    background-color: lawngreen;
+    background-color: #2C3E50;
 }
 
 
 /* MAIN */
 
+/* Hero Section */
+.ms_hero-section {
+    /* debug */
+    min-height: 200px;
+    background-color: #1ABC9C;
+}
 
+/* Portfolio Section */
+.ms_col{
+    /* debug */
+    min-height: 100px;
+    /* background-color: lightcoral; */
+    /* border: 1px solid black; */
+}
+
+.ms_card{
+    /* debug */
+    background-color: lightsalmon;
+    border: 1px solid black;
+}
 
 /* FOOTER */
