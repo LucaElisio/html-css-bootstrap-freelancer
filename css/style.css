@@ -26,6 +26,8 @@ img{
     }    
 }
 
+/* Components */
+
 
 
 /* UTILITIES */
@@ -33,6 +35,13 @@ img{
     background-color: #1ABC9C;
 }
 
+.ms_star-hr{
+    width: 15%;
+    max-width: 100px;
+    border:2px solid white;
+    opacity: 100%;
+    border-radius: 5px;
+}
 
 /* HEADER */
 .ms_header{
@@ -50,6 +59,10 @@ img{
 .ms_hero-section {
     /* debug */
     min-height: 200px;
+}
+
+#hero img{
+    max-width: 180px;
 }
 
 /* Portfolio Section */
