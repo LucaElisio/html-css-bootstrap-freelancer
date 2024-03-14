@@ -11,7 +11,9 @@ img{
 
 
 /* UTILITIES */
-
+.ms_primary_bg{
+    background-color: #1ABC9C;
+}
 
 
 /* HEADER */
@@ -28,21 +30,34 @@ img{
 .ms_hero-section {
     /* debug */
     min-height: 200px;
-    background-color: #1ABC9C;
 }
 
 /* Portfolio Section */
-.ms_col{
-    /* debug */
-    min-height: 100px;
-    /* background-color: lightcoral; */
-    /* border: 1px solid black; */
-}
-
 .ms_card{
     /* debug */
+    min-height: 100px;
     background-color: lightsalmon;
     border: 1px solid black;
+}
+
+/* About Section */
+.ms_small-container{
+    width: 80%;
+    max-width: 450px;
+    /* debug */
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+    .ms_small-container{
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ms_small-container{
+        max-width: 800px;
+    }    
 }
 
 /* FOOTER */
