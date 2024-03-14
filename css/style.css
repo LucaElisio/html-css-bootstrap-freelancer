@@ -38,7 +38,7 @@ img{
 .ms_star-hr{
     width: 15%;
     max-width: 100px;
-    border:2px solid white;
+    border: 2px solid;
     opacity: 100%;
     border-radius: 5px;
 }
@@ -68,9 +68,9 @@ img{
 /* Portfolio Section */
 .ms_card{
     /* debug */
-    min-height: 100px;
+    /* min-height: 100px;
     background-color: lightsalmon;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 
